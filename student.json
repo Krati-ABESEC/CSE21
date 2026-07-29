@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "age": 20,
+    "gender": "Male",
+    "course": "Computer Science",
+    "year": 2,
+    "email": "aarav.sharma@example.com",
+    "marks": 85
+  },
+  {
+    "id": 2,
+    "name": "Priya Verma",
+    "age": 19,
+    "gender": "Female",
+    "course": "Information Technology",
+    "year": 1,
+    "email": "priya.verma@example.com",
+    "marks": 91
+  },
+  {
+    "id": 3,
+    "name": "Rohan Gupta",
+    "age": 21,
+    "gender": "Male",
+    "course": "Mechanical Engineering",
+    "year": 3,
+    "email": "rohan.gupta@example.com",
+    "marks": 78
+  },
+  {
+    "id": 4,
+    "name": "Ananya Singh",
+    "age": 20,
+    "gender": "Female",
+    "course": "Electronics",
+    "year": 2,
+    "email": "ananya.singh@example.com",
+    "marks": 88
+  },
+  {
+    "id": 5,
+    "name": "Vivek Kumar",
+    "age": 22,
+    "gender": "Male",
+    "course": "Civil Engineering",
+    "year": 4,
+    "email": "vivek.kumar@example.com",
+    "marks": 74
+  },
+  {
+    "id": 6,
+    "name": "Neha Patel",
+    "age": 19,
+    "gender": "Female",
+    "course": "Computer Science",
+    "year": 1,
+    "email": "neha.patel@example.com",
+    "marks": 95
+  },
+  {
+    "id": 7,
+    "name": "Aditya Mehta",
+    "age": 21,
+    "gender": "Male",
+    "course": "Information Technology",
+    "year": 3,
+    "email": "aditya.mehta@example.com",
+    "marks": 82
+  },
+  {
+    "id": 8,
+    "name": "Sneha Joshi",
+    "age": 20,
+    "gender": "Female",
+    "course": "Business Administration",
+    "year": 2,
+    "email": "sneha.joshi@example.com",
+    "marks": 89
+  },
+  {
+    "id": 9,
+    "name": "Rahul Agarwal",
+    "age": 22,
+    "gender": "Male",
+    "course": "Data Science",
+    "year": 4,
+    "email": "rahul.agarwal@example.com",
+    "marks": 93
+  },
+  {
+    "id": 10,
+    "name": "Isha Malhotra",
+    "age": 19,
+    "gender": "Female",
+    "course": "Artificial Intelligence",
+    "year": 1,
+    "email": "isha.malhotra@example.com",
+    "marks": 87
+  }
+]

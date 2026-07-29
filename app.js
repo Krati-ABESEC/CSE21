@@ -118,20 +118,19 @@ np.then(res=> console.log(res)).catch(err => console.log(err));
 async function test(){
     console.log("1");
     console.log("3");
-    await console.log("2");
+    await console.log("2");// it sends the next one in the waiting not itself
     console.log("4");
+    console.log("5");
 }
 
 test();
 console.log(6);
 
+// fetch api
 
+async function getdata(){
+    await fetch("./student.json").then(res => res.json().then(res => console.log(res)));// path of student.json
+    // sdata.then(res => console.log(res));
 
+}
 
-
-
-
-//node.js
-/*
-
-*/
