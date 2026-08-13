@@ -114,7 +114,7 @@ np.then(res=> console.log(res)).catch(err => console.log(err));
 */
 
 // async await is used to resolve the promise chaining problem
-
+/*
 async function test(){
     console.log("1");
     console.log("3");
@@ -129,8 +129,29 @@ console.log(6);
 // fetch api
 
 async function getdata(){
-    await fetch("./student.json").then(res => res.json().then(res => console.log(res)));// path of student.json
+    let sdata= await fetch("./student.json").then(res => res.json());// path of student.json
+    console.log(sdata);
     // sdata.then(res => console.log(res));
 
 }
+*/
+// program-3 visualize setTimeout, setImmediate, and process.nextTick
+// CRUD - create, read, update an delete
 
+// Example: Demonstrating setImmediate in Node.js
+// setImmediate is called after all the synchronous tasks are done
+/*
+console.log("Start");
+
+setImmediate(() => {
+    console.log("Inside setImmediate callback");
+});
+
+console.log("End");
+*/
+
+setImmediate(()=>{
+    console.log("this is the setImmediate function");
+})
+
+// Process.nextTick()- 
