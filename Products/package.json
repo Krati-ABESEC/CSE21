@@ -1,0 +1,21 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "GET",
+    "POST",
+    "PUT",
+    "DELETE"
+  ],
+  "license": "ISC",
+  "author": "Krati Agarwal",
+  "type": "module",
+  "main": "product.js",
+  "scripts": {
+    "start": "node product.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

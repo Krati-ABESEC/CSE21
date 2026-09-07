@@ -1,0 +1,20 @@
+{
+  "name": "eventmodule",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Krati-ABESEC/CSE21#readme",
+  "bugs": {
+    "url": "https://github.com/Krati-ABESEC/CSE21/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krati-ABESEC/CSE21.git"
+  },
+  "license": "ISC",
+  "author": "Krati Agarwal",
+  "type": "module",
+  "main": "httpserver.js",
+  "scripts": {
+    "start": "node httpserver.js"
+  }
+}

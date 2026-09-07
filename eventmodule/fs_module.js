@@ -1,6 +1,6 @@
 const fs= require("fs");
 
-// readfile is used to write
+// readfile is used to read the file
 // unlink is used for deletion
 // appendfile is used for updation
 
@@ -20,14 +20,22 @@ const fs= require("fs");
 // })
 
 
-fs.readFile("student.txt", "utf-8", (err,data)=>{
-    if(err){
-        console.log(err);
-        return;
-    }
+// fs.readFile("student.txt", "utf-8", (err,data)=>{
+//     if(err){
+//         console.log(err);
+//         return;
+//     }
 
-    console.log(data);
-})
+//     console.log(data);
+// })
+
+
+// the code mam has sent on the group write that code and try to handle it with then()
+
+// request sent to server is handled by HTTP.
+
+
+
 
 
 

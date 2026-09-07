@@ -1,0 +1,21 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "learning how to use REST APIs",
+  "keywords": [
+    "POST",
+    "PUT",
+    "GET",
+    "DELETE"
+  ],
+  "license": "ISC",
+  "author": "Krati Agarwal",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node api.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
