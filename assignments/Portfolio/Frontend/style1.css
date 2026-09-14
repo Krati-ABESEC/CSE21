@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==============================
+   BODY
+================================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: white;
+    min-height: 100vh;
+    padding: 60px 8%;
+}
+
+
+/* ==============================
+   MAIN HEADING
+================================= */
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+
+    background: linear-gradient(90deg, #38bdf8, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* ==============================
+   ACHIEVEMENT CONTAINER
+================================= */
+
+ul {
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+}
+
+
+/* ==============================
+   ACHIEVEMENT CARD
+================================= */
+
+li {
+    background: #1e293b;
+
+    border: 1px solid #334155;
+    border-radius: 18px;
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+
+    transition: all 0.3s ease;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Card hover effect */
+
+li:hover {
+    transform: translateY(-10px);
+
+    border-color: #38bdf8;
+
+    box-shadow: 0 15px 35px rgba(56, 189, 248, 0.18);
+}
+
+
+/* ==============================
+   ACHIEVEMENT TEXT
+================================= */
+
+li h3 {
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    font-weight: 500;
+
+    color: #e2e8f0;
+
+    margin-bottom: 22px;
+
+    /* Makes the text easier to read */
+    max-width: 400px;
+}
+
+
+/* ==============================
+   ACHIEVEMENT IMAGE
+================================= */
+
+li img {
+    width: 100%;
+
+    max-width: 400px;
+
+    height: 230px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    border: 1px solid #475569;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Image hover */
+
+li:hover img {
+    transform: scale(1.03);
+
+    border-color: #38bdf8;
+}
+
+
+/* ==============================
+   RESPONSIVE DESIGN
+================================= */
+
+/* Tablet */
+
+@media (max-width: 1000px) {
+
+    ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 650px) {
+
+    body {
+        padding: 40px 5%;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+
+    ul {
+        grid-template-columns: 1fr;
+    }
+
+    li {
+        padding: 20px;
+    }
+
+    li h3 {
+        font-size: 16px;
+    }
+
+    li img {
+        height: auto;
+    }
+}
+
